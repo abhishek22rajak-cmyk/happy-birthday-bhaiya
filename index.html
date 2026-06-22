@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday Akash Bhaiya🫂</title>
+<style>
+body{
+background:black;
+color:white;
+font-family:Arial;
+text-align:center;
+}
+img{
+width:80%;
+max-width:400px;
+border-radius:20px;
+margin-top:20px;
+}
+h1{
+color:gold;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎂 Happy Birthday Akash Bhaiya 🎂</h1>
+
+<h3>From Abhi...✨</h3>
+
+<img id="slide" src="img.1jpg">
+
+<p>
+Aap sirf mere bade bhai nahi,
+meri inspiration ho ❤️
+<br><br>
+Happy Birthday Akash Bhaiya 🎉
+</p>
+
+<audio autoplay loop controls>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+let images=[
+"img.1jpg",
+"img.2jpg",
+"img.3jpg",
+"img.4jpg",
+"img.5jpg"
+];
+
+let i=0;
+
+setInterval(()=>{
+i=(i+1)%images.length;
+document.getElementById("slide").src=images[i];
+},3000);
+</script>
+
+</body>
+</html>
